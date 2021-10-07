@@ -3,11 +3,11 @@ const ncpu = require("os").cpus().length;
 const Gpio = require('onoff').Gpio;
 const wifi = require('node-wifi');
 
-wifi.init({
-  iface: null 
-});
+// wifi.init({
+//   iface: null 
+// });
 
-wifi.connect({ ssid: 'Redmi Note 9', password: 'rakes7777' }, () => {
+wifi.connect({ ssid: 'ssid', password: 'password' }, () => {
   console.log('Connected'); 
 });
 
