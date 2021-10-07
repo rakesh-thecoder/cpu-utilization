@@ -4,6 +4,7 @@
   "description": "Cpu usage check",
   "main": "index.js",
   "dependencies": {
+    "node-wifi": "^2.0.15",
     "onoff": "^6.0.3"
   },
   "devDependencies": {},
